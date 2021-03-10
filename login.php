@@ -36,17 +36,22 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login - My Website</title>
+  <title>Login - Legendary App</title>
+  <link rel="stylesheet" href="./form.css" />
 </head>
 <body>
-  <div class="" id="form-container">
-    <form action="" method="post">
-    <h3 class="form-title">Login Here man</h3>
-      <input type="text" name="user_name">
-      <input type="password" name="password">
-      <button type="submit">LogIn</button>
-      <a href="signup.php">SignUp Here</a>
-    </form>
+
+  <div class="login-page">
+    <div class="form">
+      <form class="login-form" method="post">
+        <input type="text" name="user_name" placeholder="full name" required/>
+        <input type="password" name="password" placeholder="password" required />
+        <button>login</button>
+        <p class="message">
+          Not registered? <a href="signup.php">Create an account</a>
+        </p>
+      </form>
+    </div>
   </div>
 </body>
 </html>

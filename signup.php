@@ -28,18 +28,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SignUp - My Website</title>
-  <link rel="stylesheet" href="./signup.css">
+  <title>SignUp - Legendary App</title>
+  <link rel="stylesheet" href="./form.css" />
 </head>
 <body>
-  <div class="" id="form-container">
-    <form action="" method="post">
-    <h3 class="form-title">SignUp Here man</h3>
-      <input type="text" name="user_name">
-      <input type="password" name="password">
-      <button type="submit">SignUp</button>
-      <a href="login.php">Login Here</a>
-    </form>
+  <div class="login-page">
+    <div class="form">
+      <form class="login-form" method="post">
+        <input type="text" placeholder="Full Name" name="user_name" required />
+        <input type="password" placeholder="password" name="password" required />
+        <button>create account</button>
+          <p class="message">Already registered? <a href="login.php">Sign In</a></p>
+      </form>
+    </div>
   </div>
 </body>
 </html>
